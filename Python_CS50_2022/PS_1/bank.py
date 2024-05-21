@@ -1,5 +1,6 @@
+#We are forced to reply, with ony hello. If we reply by any other keyword we'd need to pay upp.
 def main():
-    greetings=input("Hello user, great me please")
+    greetings=input("Hello user, greet me please")
     greetings=greetings.lower()
     _=greetings_charge(greetings)
     print(_)

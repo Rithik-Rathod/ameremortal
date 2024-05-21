@@ -1,3 +1,4 @@
+#We'll convert some x.yz$ value to float value and then calculate the tip.
 def main():
     dollars = dollars_to_float(input("How much was the meal? "))
     percent = percent_to_float(input("What percentage would you like to tip? "))

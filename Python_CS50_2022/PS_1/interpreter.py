@@ -7,11 +7,11 @@ def interpreter(y):
     y=y.split(" ")
     if y[1]=="+":
         return int(y[0])+int(y[2])
-    if y[1]=="/":
+    elif y[1]=="/":
         return int(y[0])/int(y[2])
-    if y[1]=="-":
+    elif y[1]=="-":
         return int(y[0])-int(y[2])
-    if y[1]=="*":
+    elif y[1]=="*":
         return int(y[0])*int(y[2])
     
 if __name__=="__main__":
